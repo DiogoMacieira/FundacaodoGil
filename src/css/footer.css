@@ -1,0 +1,38 @@
+.fotterwrapper {
+  background-color: #98d7dc;
+  margin-bottom: 0;
+}
+
+.fottercontainer {
+  padding: 0 15%;
+}
+
+.allrights {
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
+  padding: 100px 0 5px 0;
+}
+
+.icon {
+  width: 40px;
+  margin-left: 20px;
+}
+
+.footercontent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.footercontent > *:first-child {
+  justify-self: start;
+}
+
+.footercontent > *:last-child {
+  justify-self: end;
+}
+.footercontent > *:nth-child(2) {
+  justify-self: center;
+}

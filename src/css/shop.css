@@ -1,0 +1,95 @@
+.shopbody {
+  padding: 13% 15%;
+}
+
+.shoptittle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shoptittle h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.shoptittle button {
+  font-size: 1rem;
+  font-weight: 800;
+  color: white;
+  padding: 0.5% 3%;
+  border-radius: 50px;
+  background-color: black;
+}
+
+/* Shop Cards */
+
+.shopitems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  height: 350px;
+  width: 350px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 70px;
+  margin-left: 2%;
+  background-color: #ffc96b;
+}
+
+.item-content {
+  text-align: center;
+}
+.item-content p {
+  margin-bottom: 10px;
+}
+
+.shopimg {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.imgdiv {
+  display: flex;
+  justify-content: center;
+}
+
+.shopbtn {
+  font-weight: bold;
+  padding: 5px 50px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 50px;
+  box-shadow: 2px -2px black;
+}
+
+.newsletter {
+  margin-top: 50px;
+}
+
+.btndiv {
+  display: flex;
+  justify-content: center;
+}
+
+.flores {
+  height: 200px;
+}
+
+.floresbtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.icon{
+  margin: 1% 91%;
+}
