@@ -24,6 +24,6 @@ export const router = createBrowserRouter([
   }
 ],
 {
-  basename:"/fundacao-do-gil"
+  basename:"/FundacaodoGil"
 }
 );
